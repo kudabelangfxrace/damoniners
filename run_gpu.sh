@@ -3,7 +3,7 @@ if ps aux | grep 'damominer' | grep -q 'proxy'; then
     echo "DamoMiner already running."
     exit 1
 else
-    nohup ./damominer --address aleoxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --proxy asia1.damominer.hk:9090 >> aleo.log 2>&1 &
+    nohup ./damominer --address aleo15ketg9ffnlrf7u6s4kz9k498lpq04njl5za3kfl3wtr22k5gwcfqqvdgjq --proxy asia1.damominer.hk:9090 >> aleo.log 2>&1 &
 fi
 # 此模板仅供参考，使用请按个人实际参数进行修改
 # 钱包：“aleoxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”修改为个人钱包地址
